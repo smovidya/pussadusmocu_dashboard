@@ -13,14 +13,7 @@ export const Navbar: React.FC = () => {
                 </a>
             </div>
 
-            <div className="flex items-center justify-start gap-4">
-                <a href="/admin/home">
-                    <Home className="h-8 w-8 hover:cursor-pointer " />
-                </a>
-                <a href="/admin/status">
-                    <ShoppingCart className="h-8 w-8 hover:cursor-pointer" />
-                </a>
-            </div>
+            
         </div>
     );
 };
